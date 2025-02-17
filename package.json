@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rgwin1.github.io/SDEV255M5react/#gh-pages",
+  "homepage": "https://rgwin1.github.io/SDEV255M5react/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
