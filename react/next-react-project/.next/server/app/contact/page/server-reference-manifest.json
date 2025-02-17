@@ -1,0 +1,16 @@
+{
+  "node": {
+    "4025c84c2ec79116b0743e8c2eb82dacb7dc1e7358": {
+      "workers": {
+        "app/contact/page": {
+          "moduleId": "[project]/.next-internal/server/app/contact/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/contact/page.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/contact/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}
