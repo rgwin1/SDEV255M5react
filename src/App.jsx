@@ -1,4 +1,4 @@
-import { useEffect, useState, useReducer } from "react";
+import { useEffect, useReducer } from "react";
 import "./App.css";
 import chef from "./images/chef.jpg";
 
@@ -25,7 +25,6 @@ const dishObjects = items.map((dish, i) => ({
   title: dish
 }))
 
-
 function Main({ dishes, openStatus, onStatus }) {
   return (
     <>
@@ -44,16 +43,6 @@ function Main({ dishes, openStatus, onStatus }) {
     
   )
 }
-
-
-
-
-
-
-
-
-
-
 
 function App() {
   const [status, toggle] = useReducer((
