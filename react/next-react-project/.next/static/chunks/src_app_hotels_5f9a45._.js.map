@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/rgwin/OneDrive/Desktop/School/Spring2025/SDEV255M5React/React/react/next-react-project/src/app/hotels/HotelBlock.js"],"sourcesContent":["\"use client\";\r\nimport Image from \"next/image\";\r\n\r\nexport default function HotelBlock({ id, name, capacity}) {\r\n    const imageLoader = ({src}) => {\r\n        return `../${src}.jpeg`\r\n    }\r\n    return (\r\n        <div>\r\n            <h2>{name}</h2>\r\n            <p>{capacity}</p>\r\n            <Image src={id} width={300} height={300} loader={imageLoader} alt='image of hotel' />\r\n        </div>\r\n    )\r\n}"],"names":[],"mappings":";;;;AACA;AADA;;;AAGe,SAAS,WAAW,EAAE,EAAE,EAAE,IAAI,EAAE,QAAQ,EAAC;IACpD,MAAM,cAAc,CAAC,EAAC,GAAG,EAAC;QACtB,OAAO,CAAC,GAAG,EAAE,IAAI,KAAK,CAAC;IAC3B;IACA,qBACI,6LAAC;;0BACG,6LAAC;0BAAI;;;;;;0BACL,6LAAC;0BAAG;;;;;;0BACJ,6LAAC,gIAAA,CAAA,UAAK;gBAAC,KAAK;gBAAI,OAAO;gBAAK,QAAQ;gBAAK,QAAQ;gBAAa,KAAI;;;;;;;;;;;;AAG9E;KAXwB"}},
+    {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
